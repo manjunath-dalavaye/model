@@ -1,7 +1,7 @@
 
 import './App.css'
 import { useState } from "react";
-import User from './user';
+import User from './model';
 
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
