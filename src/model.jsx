@@ -1,6 +1,3 @@
-/* eslint-disable react/prop-types */
-
-
 const User = ({ closeModal }) => {
     const validateEmail = (email) => {
       const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
